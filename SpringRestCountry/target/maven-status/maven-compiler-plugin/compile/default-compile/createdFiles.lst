@@ -1,0 +1,7 @@
+com\vminds\services\DataServicesImpl.class
+com\vminds\model\Status.class
+com\vminds\services\DataServices.class
+com\vminds\dao\DataDaoImpl.class
+com\vminds\controller\SpringRestController.class
+com\vminds\model\Customer.class
+com\vminds\dao\DataDao.class
