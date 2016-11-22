@@ -30,6 +30,7 @@ public class SpringRestController {
 	public @ResponseBody
 	Status addCustomer(@RequestBody Customer customer){
 		try {
+			//ghghg
 			dataServices.addEntity(customer);
 			return new Status(1, "Employee added Successfully !");
 		} catch (Exception e) {
