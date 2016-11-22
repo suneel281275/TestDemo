@@ -71,7 +71,6 @@ public class SpringRestController {
 	Status modifyEntity(@RequestBody Customer customer) {
 		try{
 		dataServices.modifyEntity(customer);
-		//gfgfgfgffgfg
 		return new Status(1, "Employee updated Successfully !");
 		}catch(Exception e){
 			return new Status(0, e.toString());
