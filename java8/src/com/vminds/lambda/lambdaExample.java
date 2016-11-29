@@ -35,7 +35,7 @@ public class lambdaExample {
 	}
 	
 	interface MathOpearation{
-		int opearation(int a,int b);
+		int opearation(int a, int b);
 	}
 	
 	interface GreetingService{
