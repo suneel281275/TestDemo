@@ -207,7 +207,7 @@ public class Java8StreamTester {
 		return count;
 	}
 
-	private static int getEmptyJava7(List<String> ls) {
+	public static int getEmptyJava7(List<String> ls) {
 		
 		int count =0;
 		
