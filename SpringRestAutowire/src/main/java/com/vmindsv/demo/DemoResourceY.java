@@ -1,5 +1,6 @@
 package com.vmindsv.demo;
 
+
 import org.springframework.stereotype.Component;
 
 @Component("y")

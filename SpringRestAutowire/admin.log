@@ -1,0 +1,193 @@
+2016-12-05 17:07:17 INFO  AppMain:22 - loading the context object
+2016-12-05 17:07:18 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2016-12-05 17:07:18 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-12-05 17:07:18 DEBUG StandardEnvironment:124 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-12-05 17:07:18 INFO  AnnotationConfigApplicationContext:582 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b80350b: startup date [Mon Dec 05 17:07:18 IST 2016]; root of context hierarchy
+2016-12-05 17:07:18 DEBUG AnnotationConfigApplicationContext:616 - Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@5b80350b: org.springframework.beans.factory.support.DefaultListableBeanFactory@1593948d: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig]; root of factory hierarchy
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:537 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-12-05 17:07:18 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2016-12-05 17:07:18 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-12-05 17:07:18 DEBUG StandardEnvironment:124 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-12-05 17:07:18 DEBUG PathMatchingResourcePatternResolver:317 - Resolved classpath location [com/vmindsv/] to resources [URL [file:/C:/Users/raja/git/TestDemo/SpringRestAutowire/target/classes/com/vmindsv/]]
+2016-12-05 17:07:18 DEBUG PathMatchingResourcePatternResolver:711 - Looking for matching resources in directory tree [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv]
+2016-12-05 17:07:18 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv] for files matching pattern [C:/Users/raja/git/TestDemo/SpringRestAutowire/target/classes/com/vmindsv/**/*.class]
+2016-12-05 17:07:18 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\config] for files matching pattern [C:/Users/raja/git/TestDemo/SpringRestAutowire/target/classes/com/vmindsv/**/*.class]
+2016-12-05 17:07:18 DEBUG PathMatchingResourcePatternResolver:773 - Searching directory [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo] for files matching pattern [C:/Users/raja/git/TestDemo/SpringRestAutowire/target/classes/com/vmindsv/**/*.class]
+2016-12-05 17:07:18 DEBUG PathMatchingResourcePatternResolver:483 - Resolved location pattern [classpath*:com/vmindsv/**/*.class] to resources [file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\AppMain.class], file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\config\AppConfig.class], file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\DemoAutowireA.class], file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\DemoAutowireB.class], file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\DemoResourceX.class], file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\DemoResourceY.class], file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\Gopi.class], file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\Institute.class], file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\Tution.class], file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\vmindsv.class]]
+2016-12-05 17:07:18 TRACE ClassPathBeanDefinitionScanner:275 - Scanning file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\AppMain.class]
+2016-12-05 17:07:18 TRACE ClassPathBeanDefinitionScanner:298 - Ignored because not matching any filter: file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\AppMain.class]
+2016-12-05 17:07:18 TRACE ClassPathBeanDefinitionScanner:275 - Scanning file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\config\AppConfig.class]
+2016-12-05 17:07:18 TRACE ClassPathBeanDefinitionScanner:298 - Ignored because not matching any filter: file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\config\AppConfig.class]
+2016-12-05 17:07:18 TRACE ClassPathBeanDefinitionScanner:275 - Scanning file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\DemoAutowireA.class]
+2016-12-05 17:07:18 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\DemoAutowireA.class]
+2016-12-05 17:07:18 TRACE ClassPathBeanDefinitionScanner:275 - Scanning file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\DemoAutowireB.class]
+2016-12-05 17:07:18 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\DemoAutowireB.class]
+2016-12-05 17:07:18 TRACE ClassPathBeanDefinitionScanner:275 - Scanning file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\DemoResourceX.class]
+2016-12-05 17:07:18 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\DemoResourceX.class]
+2016-12-05 17:07:18 TRACE ClassPathBeanDefinitionScanner:275 - Scanning file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\DemoResourceY.class]
+2016-12-05 17:07:18 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\DemoResourceY.class]
+2016-12-05 17:07:18 TRACE ClassPathBeanDefinitionScanner:275 - Scanning file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\Gopi.class]
+2016-12-05 17:07:18 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\Gopi.class]
+2016-12-05 17:07:18 TRACE ClassPathBeanDefinitionScanner:275 - Scanning file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\Institute.class]
+2016-12-05 17:07:18 TRACE ClassPathBeanDefinitionScanner:298 - Ignored because not matching any filter: file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\Institute.class]
+2016-12-05 17:07:18 TRACE ClassPathBeanDefinitionScanner:275 - Scanning file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\Tution.class]
+2016-12-05 17:07:18 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\Tution.class]
+2016-12-05 17:07:18 TRACE ClassPathBeanDefinitionScanner:275 - Scanning file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\vmindsv.class]
+2016-12-05 17:07:18 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\Users\raja\git\TestDemo\SpringRestAutowire\target\classes\com\vmindsv\demo\vmindsv.class]
+2016-12-05 17:07:18 DEBUG ConfigurationClassEnhancer:109 - Successfully enhanced com.vmindsv.config.AppConfig; enhanced class name is: com.vmindsv.config.AppConfig$$EnhancerBySpringCGLIB$$54ffd6ca
+2016-12-05 17:07:18 DEBUG ConfigurationClassPostProcessor:412 - Replacing bean definition 'appConfig' existing class 'com.vmindsv.config.AppConfig' with enhanced class 'com.vmindsv.config.AppConfig$$EnhancerBySpringCGLIB$$54ffd6ca'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:537 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:537 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:537 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:537 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:537 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-12-05 17:07:18 DEBUG AnnotationConfigApplicationContext:733 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1dd02175]
+2016-12-05 17:07:18 DEBUG AnnotationConfigApplicationContext:757 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1372ed45]
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:723 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1593948d: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,a,b,x,y,gopi,tution,vmindsv]; root of factory hierarchy
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:537 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2016-12-05 17:07:18 TRACE SpringFactoriesLoader:89 - Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:265 - Getting BeanInfo for class [org.springframework.context.event.EventListenerMethodProcessor]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [org.springframework.context.event.EventListenerMethodProcessor]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:297 - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:537 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:265 - Getting BeanInfo for class [org.springframework.context.event.DefaultEventListenerFactory]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [org.springframework.context.event.DefaultEventListenerFactory]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:297 - Found bean property 'order' of type [int]
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'appConfig'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'appConfig'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:537 - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:265 - Getting BeanInfo for class [com.vmindsv.config.AppConfig$$EnhancerBySpringCGLIB$$54ffd6ca]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [com.vmindsv.config.AppConfig$$EnhancerBySpringCGLIB$$54ffd6ca]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:297 - Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'appConfig'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'a'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'a'
+2016-12-05 17:07:18 DEBUG InjectionMetadata:72 - Registered injected element on class [com.vmindsv.demo.DemoAutowireA]: AutowiredFieldElement for public com.vmindsv.demo.DemoAutowireB com.vmindsv.demo.DemoAutowireA.db
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:537 - Eagerly caching bean 'a' to allow for resolving potential circular references
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:265 - Getting BeanInfo for class [com.vmindsv.demo.DemoAutowireA]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [com.vmindsv.demo.DemoAutowireA]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-12-05 17:07:18 DEBUG InjectionMetadata:86 - Processing injected element of bean 'a': AutowiredFieldElement for public com.vmindsv.demo.DemoAutowireB com.vmindsv.demo.DemoAutowireA.db
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'b'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'b'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:537 - Eagerly caching bean 'b' to allow for resolving potential circular references
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:265 - Getting BeanInfo for class [com.vmindsv.demo.DemoAutowireB]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [com.vmindsv.demo.DemoAutowireB]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:297 - Found bean property 'name' of type [java.lang.String]
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'b'
+2016-12-05 17:07:18 DEBUG AutowiredAnnotationBeanPostProcessor:539 - Autowiring by type from bean name 'a' to bean named 'b'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'a'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'b'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'x'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'x'
+2016-12-05 17:07:18 DEBUG InjectionMetadata:72 - Registered injected element on class [com.vmindsv.demo.DemoResourceX]: ResourceElement for private com.vmindsv.demo.DemoResourceY com.vmindsv.demo.DemoResourceX.y
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:537 - Eagerly caching bean 'x' to allow for resolving potential circular references
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:265 - Getting BeanInfo for class [com.vmindsv.demo.DemoResourceX]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [com.vmindsv.demo.DemoResourceX]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-12-05 17:07:18 DEBUG InjectionMetadata:86 - Processing injected element of bean 'x': ResourceElement for private com.vmindsv.demo.DemoResourceY com.vmindsv.demo.DemoResourceX.y
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'y'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'y'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:537 - Eagerly caching bean 'y' to allow for resolving potential circular references
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:265 - Getting BeanInfo for class [com.vmindsv.demo.DemoResourceY]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [com.vmindsv.demo.DemoResourceY]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:297 - Found bean property 'name' of type [java.lang.String]
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'y'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'x'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'y'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'gopi'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'gopi'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:537 - Eagerly caching bean 'gopi' to allow for resolving potential circular references
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:265 - Getting BeanInfo for class [com.vmindsv.demo.Gopi]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [com.vmindsv.demo.Gopi]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'gopi'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'tution'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'tution'
+2016-12-05 17:07:18 DEBUG InjectionMetadata:72 - Registered injected element on class [com.vmindsv.demo.Tution]: AutowiredFieldElement for private com.vmindsv.demo.Institute com.vmindsv.demo.Tution.ist
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:537 - Eagerly caching bean 'tution' to allow for resolving potential circular references
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:265 - Getting BeanInfo for class [com.vmindsv.demo.Tution]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [com.vmindsv.demo.Tution]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-12-05 17:07:18 DEBUG InjectionMetadata:86 - Processing injected element of bean 'tution': AutowiredFieldElement for private com.vmindsv.demo.Institute com.vmindsv.demo.Tution.ist
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'gopi'
+2016-12-05 17:07:18 DEBUG AutowiredAnnotationBeanPostProcessor:539 - Autowiring by type from bean name 'tution' to bean named 'gopi'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'tution'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'vmindsv'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'vmindsv'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:537 - Eagerly caching bean 'vmindsv' to allow for resolving potential circular references
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:265 - Getting BeanInfo for class [com.vmindsv.demo.vmindsv]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:284 - Caching PropertyDescriptors for class [com.vmindsv.demo.vmindsv]
+2016-12-05 17:07:18 TRACE CachedIntrospectionResults:297 - Found bean property 'class' of type [java.lang.Class]
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'vmindsv'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.ConfigurationClassPostProcessor
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.CommonAnnotationBeanPostProcessor
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.event.EventListenerMethodProcessor
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.event.DefaultEventListenerFactory
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class com.vmindsv.config.AppConfig$$EnhancerBySpringCGLIB$$54ffd6ca
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.ConfigurationClassPostProcessor$EnhancedConfigurationBeanPostProcessor
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class com.vmindsv.demo.DemoAutowireA
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class com.vmindsv.demo.DemoAutowireB
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class com.vmindsv.demo.DemoResourceX
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class com.vmindsv.demo.DemoResourceY
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class com.vmindsv.demo.Gopi
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class com.vmindsv.demo.Tution
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class com.vmindsv.demo.vmindsv
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.core.env.StandardEnvironment
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class java.util.Properties
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class java.util.Collections$UnmodifiableMap
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.annotation.ConfigurationClassParser$ImportStack
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.support.DelegatingMessageSource
+2016-12-05 17:07:18 TRACE EventListenerMethodProcessor:148 - No @EventListener annotations found on bean class: class org.springframework.context.event.SimpleApplicationEventMulticaster
+2016-12-05 17:07:18 DEBUG AnnotationConfigApplicationContext:784 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@123f1134]
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-12-05 17:07:18 TRACE AnnotationConfigApplicationContext:363 - Publishing event in org.springframework.context.annotation.AnnotationConfigApplicationContext@5b80350b: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.annotation.AnnotationConfigApplicationContext@5b80350b: startup date [Mon Dec 05 17:07:18 IST 2016]; root of context hierarchy]
+2016-12-05 17:07:18 TRACE PropertySourcesPropertyResolver:78 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2016-12-05 17:07:18 TRACE PropertySourcesPropertyResolver:78 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2016-12-05 17:07:18 DEBUG PropertySourcesPropertyResolver:91 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+2016-12-05 17:07:18 INFO  AppMain:26 - y bean created
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'y'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'x'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'b'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'a'
+2016-12-05 17:07:18 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'tution'
+2016-12-05 17:07:18 INFO  AppMain:55 - done demo autowire example

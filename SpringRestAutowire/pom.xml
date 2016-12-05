@@ -7,6 +7,7 @@
   <properties>
   <springframework.version>4.3.4.RELEASE</springframework.version>
   <jdk.version>1.8</jdk.version>
+  <log4j.version>1.2.17</log4j.version>
   </properties>
   
   <dependencies>
@@ -21,6 +22,13 @@
             <artifactId>spring-core</artifactId>
             <version>${springframework.version}</version>
   </dependency> 
+  
+  <dependency>
+		<groupId>log4j</groupId>
+		<artifactId>log4j</artifactId>
+		<version>${log4j.version}</version>
+	</dependency>
+	
   </dependencies>
   
 </project>
