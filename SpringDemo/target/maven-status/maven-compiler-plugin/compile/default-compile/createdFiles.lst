@@ -1,0 +1,3 @@
+com\vmindsv\configuration\AppConfiguration.class
+com\vmindsv\controller\AppController.class
+com\vmindsv\configuration\AppIntializer.class
